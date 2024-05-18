@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+}
+
+header{
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 40px;    
+    font-family: Gupter;
+}
+
+/*FOR NAVBAR*/
+
+.navbar ul{
+    list-style-type: none;
+    background-color:white;
+    padding: 15px;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .navbar li{
+    font-size: 20px;
+    padding: 5px;
+    float: left;
+    font-family: Mukta;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-inline:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: black;
+    color: white;
+  }
+
+/*For Breaking News Part*/
+.bnews {
+    font-family: Mukta;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+    font-size: 20px;
+    
+}
+
+h4{
+    display: inline;
+    float: left;
+}
+
+.bnews p{
+    margin-left: 200px;
+    color: rgb(132, 132, 132);
+    
+}
+
+/*for image1*/
+#img1 img{
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 60px;
+    position: relative;
+    float: left;
+}
+
+.img1txt{
+    position: absolute;
+    top: 540px;
+    color: white;
+    margin-left:60px ;
+    width:29%;
+    font-family: Roboto;
+}
+
+.img1txt li{
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    list-style-type:none;
+    float: left;
+}
+
+.img1txt ul{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+.img1txt h4{
+    position: absolute;
+    padding-top: 7px;
+    
+}
+
+/*for image2*/
+#img2 img{
+    height: 500px;
+    padding-left: 20px;
+    padding-top: 60px;
+    position: relative;
+    float: left;
+}
+
+.img2txt{
+    position: absolute;
+    top: 540px;
+    color: white;
+    margin-left:560px ;
+    width: 13%;
+    font-family: Roboto;
+}
+
+.img2txt li{
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    list-style-type:none;
+    float: left;
+}
+
+.img2txt ul{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.img2txt h4{
+    position: absolute;
+    padding-top: 7px;
+}
+
+
+/*for image3*/
+#img3 img{
+    height: 240px;
+    padding-left: 20px;
+    padding-top: 60px;
+    position: relative;
+}
+
+.img3txt{
+    position: absolute;
+    top: 315px;
+    color: white;
+    margin-left:820px ;
+    width: 17%;
+    font-family: Roboto;
+}
+
+.img3txt li{
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    list-style-type:none;
+    float: left;
+}
+
+.img3txt ul{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.img3txt h4{
+    position: absolute;
+    padding-top: 2px;
+    
+}
+
+/*for image4*/
+#img4 img{
+    height: 240px;
+    padding-left: 20px;
+    padding-top: 15px;
+    position: relative;
+    float: left;
+}
+
+.img4txt{
+    position: absolute;
+    top: 570px;
+    color: white;
+    margin-left:820px ;
+    width: 13%;
+    font-family: Roboto;
+}
+
+.img4txt li{
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    list-style-type:none;
+    float: left;
+}
+
+.img4txt ul{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+.img4txt h4{
+    position: absolute;
+    padding-top: 4px;
+}
+
+
+
+/*FOR NEWNAVBAR*/
+.nnavbar ul{
+    list-style-type: none;
+    background-color:white;
+    padding: 15px;
+    text-align: center;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+
+  .nnavbar li{
+    font-size: 20px;
+    padding: 0px;
+    float: left;
+    font-family: Mukta;
+    width: 210px;
+    
+  }
+  
+  .nnavbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-inline:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+  
+  .nnavbar a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .nnavbar{
+   margin-top: -244px;
+   margin-left:1080px;  
+  }
+
+  #active{
+    background-color: black;
+    color: white;
+  }
+
+  /*images after new navbar*/
+  .nimg1 img{
+    height: 100px;
+    position: absolute;
+    margin-left: 297px;
+    margin-top: 22px;
+    float: left;
+  }
+
+.nimg1 p{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 22px;
+    float: left;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+#date1{
+    margin-top: 79px;
+    font-size: 15px;
+}
+
+.nimg2 img{
+    height: 100px;
+    position: absolute;
+    margin-left: 297px;
+    margin-top: 122px;
+    float: left;
+  }
+
+.nimg2 p{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 122px;
+    float: left;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+#date2{
+    margin-top: 179px;
+    font-size: 15px;
+}
+
+.nimg3 img{
+    height: 100px;
+    position: absolute;
+    margin-left: 297px;
+    margin-top: 222px;
+    float: left;
+  }
+
+.nimg3 p{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 222px;
+    float: left;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+#date3{
+    margin-top: 279px;
+    font-size: 15px;
+}
+
+.nimg4 img{
+    height: 100px;
+    position: absolute;
+    margin-left: 297px;
+    margin-top: 322px;
+    float: left;
+  }
+
+.nimg4 p{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 322px;
+    float: left;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+#date4{
+    margin-top: 379px;
+    font-size: 15px;
+}
